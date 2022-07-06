@@ -11,7 +11,7 @@ import SwiftUI
 struct SolarSystemApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlanetListView()
         }
     }
 }
