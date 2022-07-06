@@ -17,7 +17,7 @@ struct PlanetDetailView: View {
                 .ignoresSafeArea()
                 .frame(maxHeight: .infinity)
                 .blur(radius: 2)
-            VStack {
+            VStack(spacing: 20) {
                 Image(planet.imageName)
                 Text("Maximum Distance from Sun: \(planet.millionKMsFromSun)")
                 Text("Day Length in Earth Day: \(planet.dayLength) Days")
